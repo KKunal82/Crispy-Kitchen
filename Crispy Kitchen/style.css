@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Exo+2:wght@200;300;400;500;600&family=Lobster&family=Poppins:ital,wght@0,100;0,500;1,100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Single+Day&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+:root{
+    --bs-dark-color: #212529;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --secondary-color: #0b5ed7;
+    
+}
+h1{
+    font-size: 3.4rem !important;
+    color: var(--bs-main-color) !important;
+}
+h3{
+    color: var(--bs-main-color) !important;
+}
+p{
+    margin:0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0.07;
+    line-height: 1.75rem;
+    color: var(--bs-main-color);
+
+}
+  
+a{
+    text-decoration: none !important;
+}
+
+li{
+    list-style: none;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+.brand-logo:hover{
+    color: #ff2f2f !important;
+}
+#home{
+    padding: 100px 0px 0 30px !important;
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+}
+.hero-section{
+    height: 100%;
+    background-color:  var(--bs-dark-color);
+}
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.hero-review{
+    font-size: 2rem;
+}
+.hero-review span{
+    color: #f1ba12;
+}
+
+  .heading{
+    text-align: center;
+    color: var(--bs-main-color);
+    padding: 3rem 0;
+    font-size: 3rem;
+    position: relative;
+  }
+  .price{
+    cursor: pointer;
+    padding: 8px 0 0 0;
+  }
+  .price:hover{
+    background: var(--secondary-color) !important;
+    color: var(--bs-main-color) !important;
+  }
+  .food-review span{
+    color: #f1ba12
+  }
+
+  .video-section{
+    width: 100%;
+    height: 60vh;
+    position: relative !important;
+    background-color: #1c1c1cc2;
+  }
+
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+ .feature {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 10px 0;
+    border-radius: 20px;
+  }
+  
+  footer{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.777), rgba(0, 0, 0, 0.716)),url(foodImages/restro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+  }
+  i{
+    cursor: pointer;
+  }
+  .contact-form{
+    width: 70% !important;
+  }
+
+  @media only screen and (max-width:500px) {
+    .contact-form{
+        width: 90% !important;
+      }
+  }
+ 
